@@ -1,0 +1,4 @@
+<?
+interface ISuperUser {
+    function getInfo();
+}
