@@ -1,0 +1,34 @@
+body{
+    padding: 25px;
+    margin: auto;
+    
+}
+
+.for_rez{
+    padding: 12px;
+    margin: 12px;
+}
+
+.table,
+.Valutes,
+td {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.888);
+    border: 1px ridge black;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+th{
+    border: 1px solid rgba(255, 230, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+}
+td:hover, th:hover,
+td:focus, th:focus {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 230, 0);
+    border-collapse: collapse;
+    box-decoration-break: slice;
+    box-sizing: border-box;
+}
